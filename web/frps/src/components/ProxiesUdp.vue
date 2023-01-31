@@ -40,34 +40,34 @@
     </template>
     </el-table-column>
     <el-table-column
-      label="Name"
+      label="名称"
       prop="name"
       sortable>
     </el-table-column>
     <el-table-column
-      label="Port"
+      label="端口"
       prop="port"
       sortable>
     </el-table-column>
     <el-table-column
-      label="Connections"
+      label="连接"
       prop="conns"
       sortable>
     </el-table-column>
     <el-table-column
-      label="Traffic In"
+      label="入站"
       prop="traffic_in"
       :formatter="formatTrafficIn"
       sortable>
     </el-table-column>
     <el-table-column
-      label="Traffic Out"
+      label="出站"
       prop="traffic_out"
       :formatter="formatTrafficOut"
       sortable>
     </el-table-column>
     <el-table-column
-      label="status"
+      label="状态"
       prop="status"
       sortable>
       <template slot-scope="scope">

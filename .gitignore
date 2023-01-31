@@ -30,6 +30,7 @@ release/
 test/bin/
 vendor/
 dist/
+node_modules/
 .idea/
 .vscode/
 
